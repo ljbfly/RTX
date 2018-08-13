@@ -1,0 +1,12 @@
+.\flash\blinky.o: Blinky.c
+.\flash\blinky.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\flash\blinky.o: E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include\ARMCM3.h
+.\flash\blinky.o: .\RTX\Include\core_cm3.h
+.\flash\blinky.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\blinky.o: .\RTX\Include\cmsis_version.h
+.\flash\blinky.o: .\RTX\Include\cmsis_compiler.h
+.\flash\blinky.o: .\RTX\Include\cmsis_armcc.h
+.\flash\blinky.o: .\RTX\Include\mpu_armv7.h
+.\flash\blinky.o: E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\Device\ARM\ARMCM3\Include\system_ARMCM3.h
+.\flash\blinky.o: .\Include\cmsis_os2.h
+.\flash\blinky.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

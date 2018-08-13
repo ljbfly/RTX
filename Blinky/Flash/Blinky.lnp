@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\flash\blinky.o"
+".\flash\rtx_lib.o"
+".\flash\irq_cm3.o"
+".\flash\rtx_delay.o"
+".\flash\rtx_evflags.o"
+".\flash\rtx_evr.o"
+".\flash\rtx_kernel.o"
+".\flash\rtx_memory.o"
+".\flash\rtx_mempool.o"
+".\flash\rtx_msgqueue.o"
+".\flash\rtx_mutex.o"
+".\flash\rtx_semaphore.o"
+".\flash\rtx_system.o"
+".\flash\rtx_thread.o"
+".\flash\rtx_timer.o"
+".\flash\os_systick.o"
+".\flash\rtx_config.o"
+".\flash\retarget_io.o"
+".\flash\eventrecorder.o"
+".\flash\startup_armcm3.o"
+".\flash\system_armcm3.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

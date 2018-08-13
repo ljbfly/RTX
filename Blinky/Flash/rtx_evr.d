@@ -1,0 +1,13 @@
+.\flash\rtx_evr.o: RTX\Source\rtx_evr.c
+.\flash\rtx_evr.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\flash\rtx_evr.o: .\RTX\Include\cmsis_compiler.h
+.\flash\rtx_evr.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\flash\rtx_evr.o: .\RTX\Include\cmsis_armcc.h
+.\flash\rtx_evr.o: .\RTX\Include\rtx_evr.h
+.\flash\rtx_evr.o: .\Include\cmsis_os2.h
+.\flash\rtx_evr.o: E:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\flash\rtx_evr.o: .\RTX\Config\RTX_Config.h
+.\flash\rtx_evr.o: .\RTE\_Simulation\RTE_Components.h
+.\flash\rtx_evr.o: .\RTX\Include\rtx_os.h
+.\flash\rtx_evr.o: E:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.5.0\Include\EventRecorder.h
+.\flash\rtx_evr.o: .\RTE\Compiler\EventRecorderConf.h
